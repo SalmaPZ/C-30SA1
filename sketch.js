@@ -49,9 +49,9 @@ function draw()
 {
   background(51);
 
-  image(bg_img,width/2,height/2,490,690);
+  
 
-  image(food,fruit.position.x,fruit.position.y,70,70);
+  ellipse(fruit.position.x,fruit.position.y,70,70);
   rope.show();
   Engine.update(engine);
   ground.show();
